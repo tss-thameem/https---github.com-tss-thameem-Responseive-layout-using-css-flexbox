@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 3px solid silver;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border-radius: 20px 20px 0 0;
+    display: flex;
+}
+
+.subparent {
+    background-color: white;
+    width: 450px;
+    border-radius: 20px;
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-summary {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 90px;
+    font-family: arial;
+}
+
+.content {
+    background-color: white;
+    width: 310px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+
+/* price list design */
+
+.price-list {
+    display: flex;
+    background-color: rgba(243, 232, 232, 0.459);
+    border-radius: 10px;
+    margin: 25px;
+    justify-content: space-around;
+}
+
+.price-list>img {
+    /* width: 50px; */
+    height: 50px;
+    margin: 20px;
+}
+
+.annual-plan {
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    line-height: 3px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* .price-year {
+    font-size: 25px;
+    background-color: orangered;
+    display: flex;
+    height: 25px;
+    position: relative;
+    top: 40px;
+    right: 70px;
+} */
+
+.change {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+
+/* payment and processing */
+
+.payment-parent {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding: 20px; */
+    margin: 25px;
+}
+
+.payment {
+    background-color: blue;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: large;
+    color: rgba(245, 245, 245, 0.884);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cancel {
+    width: 400px;
+    height: 50px;
+    font-size: large;
+    color: rgb(114, 113, 113);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attribution {
+    /* background-color: rgba(243, 232, 232, 0.986); */
+    text-align: center;
+}
